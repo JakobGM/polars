@@ -1,5 +1,6 @@
 #![cfg_attr(docsrs, feature(doc_cfg))]
 extern crate core;
+#[allow(clippy::transmute_undefined_repr)]
 
 #[macro_use]
 pub mod utils;
